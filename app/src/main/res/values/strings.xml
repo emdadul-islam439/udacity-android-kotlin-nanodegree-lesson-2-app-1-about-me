@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">lesson_2_part_1_about_me</string>
     <string name="emdadul_islam">Emdadul Islam</string>
+    <string name="sample_bio_text">Lorem ipsum dolor sit amet,
+        \nconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        \nIn egestas erat imperdiet sed euismod nisi porta lorem.
+        \nEnim eu turpis egestas pretium aenean pharetra. Lacus sed viverra tellus in hac habitasse platea dictumst
+        \nvestibulum.
+        \nNullam non nisi est sit amet facilisis. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat in. Sagittis id consectetur purus ut faucibus pulvinar. Venenatis a condimentum
+        \nvitae sapien. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Tellus molestie nunc non
+        \nblandit massa. Nunc sed blandit libero volutpat sed cras.
+        \n
+        \nCras ornare arcu dui vivamus arcu.
+        \nRhoncus urna neque viverra justo nec ultrices. Accumsan tortor posuere ac ut consequat semper.
+        \nVulputate ut pharetra sit
+        \namet.
+        \nDolor sit amet consectetur adipiscing elit pellentesque habitant. Eleifend mi in nulla posuere sollicitudin. Ut pharetra sit
+        \namet aliquam id diam. Sed turpis tincidunt id aliquet. Fringilla phasellus faucibus scelerisque eleifend. Vitae justo eget magna fermentum iaculis eu non diam.
+        \nLectus quam id leo in vitae turpis. Bibendum enim facilisis gravida neque convallis a cras semper auctor. Gravida arcu ac tortor dignissim convallis aenean et tortor.
+        \nSodales neque sodales ut etiam sit amet nisl purus in.</string>
 </resources>
