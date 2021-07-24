@@ -11,6 +11,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.tvMainName.text = "hellow"
+        binding.tvMainName.text = "Emdadul Islam"
     }
 }
