@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@id/img_starWithMiddleFill" />
 
     <Button
-        android:id="@+id/bnt_done"
+        android:id="@+id/btn_done"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/done"
@@ -68,7 +68,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/bnt_done">
+        app:layout_constraintTop_toBottomOf="@id/btn_done">
 
         <TextView
             android:id="@+id/tv_bioText"
