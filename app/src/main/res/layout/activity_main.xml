@@ -8,33 +8,67 @@
 
     <TextView
         android:id="@+id/tv_mainName"
+        style="@style/tvMainNameStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/emdadul_islam"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        style="@style/tvMainNameStyle" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/btn_starWithMiddleFill"
+
+    <TextView
+        android:id="@+id/tv_nickName"
+        style="@style/tvMainNameStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        app:layout_constraintTop_toBottomOf="@id/tv_mainName"
+        android:text="@string/emdadul_islam"
+        android:visibility="gone"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        style="@style/tvMainNameStyle" />
+        app:layout_constraintTop_toBottomOf="@id/tv_mainName" />
+
+    <ImageView
+        android:id="@+id/img_starWithMiddleFill"
+        style="@style/tvMainNameStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_nickName"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <EditText
+        android:id="@+id/et_nickName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="What is your name?"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_starWithMiddleFill" />
+
+    <Button
+        android:id="@+id/bnt_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_nickName" />
+
 
     <ScrollView
         android:id="@+id/sv_bio_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_starWithMiddleFill">
+        app:layout_constraintTop_toBottomOf="@id/bnt_done">
 
         <TextView
             android:id="@+id/tv_bioText"
@@ -42,7 +76,7 @@
             android:layout_height="wrap_content"
             android:lineSpacingMultiplier="1.2"
             android:text="@string/sample_bio_text"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
