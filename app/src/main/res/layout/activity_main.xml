@@ -50,7 +50,7 @@
             android:id="@+id/et_nickName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="What is your name?"
+            android:hint="@{appText.editTextHint}"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -60,7 +60,7 @@
             android:id="@+id/btn_done"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/done"
+            android:text="@{appText.doneButtonText}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/et_nickName" />
@@ -83,7 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingMultiplier="1.2"
-                android:text="@string/sample_bio_text"
+                android:text="@{appText.bioText}"
                 android:textSize="20sp" />
         </ScrollView>
 

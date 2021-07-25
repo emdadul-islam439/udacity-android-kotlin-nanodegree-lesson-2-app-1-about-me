@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         binding.apply {
 //            tvNickName.text = binding.etNickName.text
             this@MainActivity.appText.nickName = binding.etNickName.text.toString()
-//            invalidateAll()
+            invalidateAll()
             etNickName.visibility = View.GONE
             view.visibility = View.GONE
             tvNickName.visibility = View.VISIBLE
