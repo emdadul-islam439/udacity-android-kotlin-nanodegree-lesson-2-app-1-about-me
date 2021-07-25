@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">lesson_2_part_1_about_me</string>
     <string name="emdadul_islam">Emdadul Islam</string>
+    <string name="nick_name_edit_text_hint">What is your nick name?</string>
     <string name="sample_bio_text">Lorem ipsum dolor sit amet,
         \nconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         \nIn egestas erat imperdiet sed euismod nisi porta lorem.

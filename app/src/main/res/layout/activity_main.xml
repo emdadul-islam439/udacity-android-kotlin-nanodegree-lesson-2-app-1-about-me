@@ -2,6 +2,12 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+    
+    <data>
+        <variable
+            name="appText"
+            type="com.example.lesson_2_part_1_about_me.model.AppText" />
+    </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -13,7 +19,7 @@
             style="@style/tvMainNameStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/emdadul_islam"
+            android:text="@{appText.mainName}"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -24,7 +30,7 @@
             style="@style/tvMainNameStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/emdadul_islam"
+            android:text="@{appText.nickName}"
             android:visibility="gone"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
