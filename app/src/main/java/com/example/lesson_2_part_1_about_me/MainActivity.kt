@@ -32,7 +32,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun addNickName(view: View) {
         binding.apply {
-            tvNickName.text = binding.etNickName.text
+//            tvNickName.text = binding.etNickName.text
+            this@MainActivity.appText.nickName = binding.etNickName.text.toString()
             invalidateAll()
             etNickName.visibility = View.GONE
             view.visibility = View.GONE
